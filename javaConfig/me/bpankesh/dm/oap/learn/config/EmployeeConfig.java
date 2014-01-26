@@ -1,4 +1,8 @@
-package com.paypal.dm.oap.learn.config;
+package me.bpankesh.dm.oap.learn.config;
+
+import me.bpankesh.dm.oap.learn.classes.Department;
+import me.bpankesh.dm.oap.learn.service.EmployeeServiceImpl;
+import me.bpankesh.dm.oap.learn.service.itf.EmployeeService;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -8,10 +12,6 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.PropertySource;
-
-import com.paypal.dm.oap.learn.classes.Department;
-import com.paypal.dm.oap.learn.service.EmployeeServiceImpl;
-import com.paypal.dm.oap.learn.service.itf.EmployeeService;
 
 @Configuration
 @Import(PropertyConfigurer.class)

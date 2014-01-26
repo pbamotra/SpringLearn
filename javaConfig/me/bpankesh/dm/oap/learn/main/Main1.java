@@ -1,10 +1,10 @@
-package com.paypal.dm.oap.learn.main;
+package me.bpankesh.dm.oap.learn.main;
+
+import me.bpankesh.dm.oap.learn.classes.Employee;
+import me.bpankesh.dm.oap.learn.config.EmployeeConfig;
+import me.bpankesh.dm.oap.learn.service.itf.EmployeeService;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import com.paypal.dm.oap.learn.classes.Employee;
-import com.paypal.dm.oap.learn.config.EmployeeConfig;
-import com.paypal.dm.oap.learn.service.itf.EmployeeService;
 
 /*
  *		@Configuration, @Bean, @Lazy, @Primary, @Import and @DependsOn  

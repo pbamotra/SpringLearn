@@ -1,8 +1,8 @@
-package com.paypal.dm.oap.learn.service;
+package me.bpankesh.dm.oap.learn.service;
 
-import com.paypal.dm.oap.learn.classes.Department;
-import com.paypal.dm.oap.learn.classes.Employee;
-import com.paypal.dm.oap.learn.service.itf.EmployeeService;
+import me.bpankesh.dm.oap.learn.classes.Department;
+import me.bpankesh.dm.oap.learn.classes.Employee;
+import me.bpankesh.dm.oap.learn.service.itf.EmployeeService;
 
 public class EmployeeServiceImpl implements EmployeeService{
 

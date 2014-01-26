@@ -1,4 +1,4 @@
-package com.paypal.dm.oap.learn.config;
+package me.bpankesh.dm.oap.learn.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;

@@ -1,4 +1,4 @@
-package com.paypal.dm.oap.learn.classes;
+package me.bpankesh.dm.oap.learn.classes;
 
 public class Department {
 	private String deptName;
