@@ -13,7 +13,7 @@ public class ProcessBuilderRunner {
 		cmd.add("-al");
 		ProcessBuilderWrapper pbd = null;
 		try {
-			pbd = new ProcessBuilderWrapper(new File("/tmp"), cmd);
+			pbd = new ProcessBuilderWrapper(new File("/Users/pbamotra/Desktop"), cmd);
 		} catch (Exception e) {
 			System.err.println("Exception occured " + e.getMessage());
 		}
